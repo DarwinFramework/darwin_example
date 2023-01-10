@@ -1,0 +1,25 @@
+name: darwin_example
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  shelf: ^1.4.0
+  darwin_sdk: ^1.1.0-alpha.3
+  darwin_http: ^1.1.0-alpha.6
+  darwin_injector: ^1.1.0-alpha.1
+  darwin_eventbus: ^1.1.0-alpha.1
+  darwin_marshal: ^1.1.0-alpha.4
+  dogs_core: ^1.0.0-alpha
+  dogs_darwin: ^1.0.0-alpha
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+  build_runner: ^2.3.3
+  darwin_gen: ^1.1.0-alpha.3
+  darwin_http_gen: ^1.1.0-alpha.7
+  dogs_generator: 1.0.0-alpha.1
