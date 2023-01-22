@@ -1,12 +1,13 @@
 import 'package:darwin_example/models/cat.dart';
 import 'package:darwin_example/services/cat_service.dart';
 import 'package:darwin_http/darwin_http.dart';
+import 'package:darwin_sdk/darwin_sdk.dart';
 
 @RestController()
 @RequestMapping("/api/cats")
 class CatController {
-
   CatService service;
+
   CatController(this.service);
 
   @GetMapping("%name%")
@@ -33,5 +34,4 @@ class CatController {
 
   @GetMapping()
   List<Cat> retrieveAll() => service.getAllCats();
-
 }
