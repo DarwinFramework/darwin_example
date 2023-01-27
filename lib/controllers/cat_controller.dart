@@ -10,23 +10,23 @@ class CatController {
 
   CatController(this.service);
 
-  @GetMapping("%name%")
+  @GetMapping("{name}")
   Cat retrieveCat(@PathParameter() String name) {
     if (!service.hasCat(name)) throw RequestException.notFound();
     return service.getNamedCat(name);
   }
 
   @PostMapping()
-  Cat createCat(@Body() cat) => service.addCat(cat);
+  Cat createCat(@Body() Cat cat) => service.addCat(cat);
 
-  @PutMapping("%name%")
+  @PutMapping("{name}")
   Cat saveCat(@PathParameter() String name, @Body() Cat cat) {
     service.removeCat(name);
     service.addCat(cat);
     return cat;
   }
 
-  @DeleteMapping("%name%")
+  @DeleteMapping("{name}")
   void deleteCat(@PathParameter() String name) => service.removeCat(name);
 
   @GetMapping("random")

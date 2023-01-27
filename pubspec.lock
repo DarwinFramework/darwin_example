@@ -127,6 +127,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.17.0"
+  conduit_codable:
+    dependency: transitive
+    description:
+      name: conduit_codable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.1.8"
+  conduit_open_api:
+    dependency: transitive
+    description:
+      name: conduit_open_api
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.1.8"
   convert:
     dependency: transitive
     description:
@@ -161,28 +175,28 @@ packages:
       name: darwin_eventbus
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0-alpha.1"
+    version: "1.1.0-alpha.2"
   darwin_gen:
     dependency: "direct dev"
     description:
-      name: darwin_gen
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0-alpha.5"
+      path: "/media/helight/Volume/Projects/darwin/sdk/darwin_gen"
+      relative: false
+    source: path
+    version: "1.1.0-alpha.6"
   darwin_http:
     dependency: "direct main"
     description:
-      name: darwin_http
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0-alpha.8"
+      path: "/media/helight/Volume/Projects/darwin/sdk/darwin_http"
+      relative: false
+    source: path
+    version: "1.1.0-alpha.9"
   darwin_http_gen:
     dependency: "direct dev"
     description:
-      name: darwin_http_gen
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0-alpha.9"
+      path: "/media/helight/Volume/Projects/darwin/sdk/darwin_http_gen"
+      relative: false
+    source: path
+    version: "1.1.0-alpha.10"
   darwin_injector:
     dependency: "direct main"
     description:
@@ -196,14 +210,14 @@ packages:
       name: darwin_marshal
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0-alpha.6"
+    version: "1.1.0-alpha.7"
   darwin_sdk:
     dependency: "direct main"
     description:
-      name: darwin_sdk
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0-alpha.5"
+      path: "/media/helight/Volume/Projects/darwin/sdk/darwin"
+      relative: false
+    source: path
+    version: "1.1.0-alpha.6"
   dogs_core:
     dependency: "direct main"
     description:

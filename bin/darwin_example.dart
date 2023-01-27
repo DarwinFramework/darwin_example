@@ -10,7 +10,9 @@ Future main(List<String> arguments) async {
   await initialiseDarwin();
   application.watchProcessSignals = true;
   application.setLogLevel(Level.ALL);
-  application.install(HttpPlugin());
+  application.install(HttpPlugin()
+      ..port = 9090
+  );
   application.install(MarshalPlugin((marshal) {
     DogsMarshal.link(marshal, dogs);
   }));

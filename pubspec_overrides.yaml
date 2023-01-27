@@ -1,0 +1,9 @@
+dependency_overrides:
+  darwin_sdk:
+    path: /media/helight/Volume/Projects/darwin/sdk/darwin
+  darwin_http:
+    path: /media/helight/Volume/Projects/darwin/sdk/darwin_http
+  darwin_gen:
+    path: /media/helight/Volume/Projects/darwin/sdk/darwin_gen
+  darwin_http_gen:
+    path: /media/helight/Volume/Projects/darwin/sdk/darwin_http_gen
